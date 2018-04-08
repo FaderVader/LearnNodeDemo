@@ -25,6 +25,8 @@ mongoose.connect(process.env.DATABASE)
 
 // READY?! Let's go!
 
+// import all models
+require('./models/store');
 
 // Start our app!
 const app = require('./app');
